@@ -1,0 +1,171 @@
+ 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://kit.fontawesome.com/8f85738e63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+<div class="container">
+<nav>
+<img src="yenelogo.png" class="logo">
+<ul id="sidemenu">
+    <li> <a href="#header">Home</a></li>
+    <li> <a href="#about">About</a></li>
+    <li> <a href="#services">service</a></li>
+    <li> <a href="#Hobbies">Hobbies</a></li>
+    <li> <a href="#contact">contact</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars " onclick="openmenu()"></i>
+</nav>
+ 
+<div class="header-text">
+
+<h1>Hi,I'm <span> Yenenesh</span> Dabot</h1>
+<h3>I'm  a <span>software engineer</span> student</h3>
+ 
+</div>
+</div>
+
+    </div>
+
+    <div class="home-imgs">
+        <img src="download.png" alt="images">
+    </div>
+
+<!-------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Snapchat-267434741.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I'm YENENESH, a driven software student at Debrebrhan University with a passion for technology and a thirst for knowledge. As I immerse myself in my studies, I'm committed to honing my skills, gaining practical experience, and contributing to impactful projects. Allow me to share more about my skills,  and education:My carrer plan is to be a full stack developer who is effecient and reliable with different frameworks and work and learn throught the journey of the working environment And my dream is to be entrepreneur and have my own company in the next 10 years. And finally A Dream without a plan is just a dream And a plan without a commitment is just a plan!!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>                 
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                             
+                            <li><span>Web Development</span><br> HTML <br>CSS <br>JAVASCRIPT<br> PHP </li>
+                            <li><span> Programming Languages </span><br> c++ 1<br>c++ 2<br>java <br>mysqul</li>
+                                  
+                        </ul>
+                    </div>                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Elementary</span><br>syiadebr secondary school</li>
+                            <li><span>Preparatory school</span><br> Basso secondary and preparatory school</li>
+                            <li><span>Campus...</span><br>@Debrebrhan university</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div
+    <!-- -----------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p> I can also provide sevices like system update and system damage repairs and a inserting additional features to your previous system.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2> UI/UL</h2>
+                    <p>UI/UL
+                        User experience is paramount in today's digital landscape. Drawing on my expertise in software engineering and design, I offer UI/UX design services to create interfaces that not only look great but also function flawlessly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I can create an application that is required by the customer which can give the customer a full stisfaction in the development and uses.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!----------------Hobbies------------------>
+    <div id="Hobbies">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies and Photos</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="drowing.jfif" >
+                    <div class="layer">
+                        <h3> Drawing and Sketching</h3>
+                        <p> some times taking a picture give me an inspiration on new and bright ideas.you should try it too!</p>                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photogeraphy.jfif" >
+                    <div class="layer">
+                        <h3> Photography</h3>
+                        <p> you need to relax on some occasions so some times i like to play video games with some of my friends.</p>                     
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Gaming.jfif" >
+                    <div class="layer">
+                        <h3>Gaming</h3>
+                        <p> I like to visit place that can be rejuvinating and historical.it gives you peace to your mind and soul.</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+<!-- --------contact----------- -->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <h3>My Email</h3>
+            <p></p> <i class="fa-solid fa-envelope"></i>yeneshdabot2022@gmail.com</p>            
+            <h3>Call Me</h3>
+            <p ></p><i class="fa-solid fa-phone"></i>+251 941506160</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com"></a><i class="fa-brands fa-facebook"></i> </a>
+                <a href="https://www.telegram.com" ></a><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkdin.com" ></a><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com"></a>  <i class="fa-brands fa-instagram"></i></a>
+                 
+            </div>
+            <a href="index.html" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form >
+                <input type="text" name="name" placeholder="your name" required>
+                <input type=" email" name="email" placeholder="your email" required>
+                <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">submit </button> 
+            </form>
+        </div>
+
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright &copy;  Yenenesh @ ID 1500147</p>
+</div>
+
+</div>
+ 
+<script src="javascript.js"></script>
+
+</body>
+</html>
+ 
